@@ -8,6 +8,6 @@ import read from './reader';
     const result = JSON.parse(value);
     return result;
   } catch (e) {
-    return new Error('Ошибка обработки днных!')
+    return new Error('Ошибка обработки днных!');
   }
 })();
